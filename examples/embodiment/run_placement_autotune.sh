@@ -7,7 +7,7 @@ CONFIG_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 REPO_PATH=$(dirname $(dirname "$CONFIG_PATH"))
 export PYTHONPATH=${REPO_PATH}:$PYTHONPATH
 
-## newly added
+## 
 export EMBODIED_PATH="${REPO_PATH}/examples/embodiment"
 ##
 
